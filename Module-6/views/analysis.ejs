@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <link href="/styles/style.css" rel="stylesheet">
+  <title>Bryan Edler 7161340</title>
+  </head>
+  <body>
+    <h1>Survey analysis</h1>
+
+
+
+
+    <div class="list">
+      <h3>Usage of the website:</h3>
+      <ul>
+        <li> Never <strong>  <%= data.never %> </strong></li>
+        <li> Barely  <%= data.barely %></strong></li>
+        <li> Sometimes <strong> <%= data.sometimes %></strong></li>
+        <li> Often <strong> <%= data.often %></strong></li>
+      </ul>
+    </div>
+    <div class="list">
+      <h3>How easy to find what one is looking for:</h3>
+      <ul>
+        <li> Very easy <strong> <%= data.veryeasy %></strong></li>
+        <li> Fairly easy<strong>  <%= data.fairlyeasy %></strong></li>
+        <li> Difficult <strong> <%= data.difficult %></strong></li>
+        <li> Very difficult <strong> <%= data.verydifficult %></strong></li>
+      </ul>
+    </div>
+    <div class="list">
+      <h3>The filter, helpful or not:</h3>
+      <ul>
+        <li> Helpful <strong> <%= data.helpful %></strong></li>
+        <li> Helpful, but could be better <strong> <%= data.helpfulbut %></strong></li>
+        <li> Not helpful <strong> <%= data.nothelpful %></strong></li>
+        <li> Too complicated <strong> <%= data.toocomplicated %></strong></li>
+      </ul>
+    </div>
+    <div class="list">
+      <h3>Searched items arrangement</h3>
+      <ul>
+        <li> Appealing <strong> <%= data.appealing %></strong></li>
+        <li> Acceptable <strong><%= data.acceptable %></strong></li>
+        <li> Disturbing <strong> <%= data.disturbing %></strong></li>
+        <li> Annoying  <strong><%= data.annoying %></strong></li>
+      </ul>
+    </div>
+    <div class="list">
+      <p> Positive Aspects:<strong> <%= data.likes %> </strong>.</p>
+      <p> Negative Aspects: <strong><%= data.dislikes %></strong> .</p>
+    </div>
+    <div class="dislikes">
+
+    </div>
+
+  </body>
+</html>

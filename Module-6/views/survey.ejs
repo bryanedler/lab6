@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="/styles/style.css" rel="stylesheet">
+  <title>Bryan Edler 7161340</title>
+</head>
+<body>
+  <div class="container">
+    <h1> Please take some times to answer some questions about our website!</h1>
+
+
+	<form  action="/survey" name="questionnaire" method = "POST">
+    <div class="name">
+
+
+	 First name: <input type = "text" name = "firstname"><br>
+	 Second name: <input type = "text" name = "secondname"><br><br>
+ </div><br>
+ <div class="list">
+
+
+	<h3>How often do you use the website: wwww.kijiji.ca?</h3> <br>
+	 <input type="radio"name="usage"value="never">Never<br>
+	 <input type="radio"name="usage"value="barely">Barely<br>
+	 <input type="radio"name="usage"value="sometimes">Sometimes<br>
+	 <input type="radio"name="usage"value="often">Often<br><br>
+	 <h3>How easy is it to find what you are looking for?</h3> <br>
+	 <input type="radio"name="easy"value="veryeasy">Very easy<br>
+	 <input type="radio"name="easy"value="fairlyeasy">Fairly easy<br>
+	 <input type="radio"name="easy"value="difficult">Difficult<br>
+	 <input type="radio"name="easy"value="verydifficult">Very difficult<br><br>
+	 <h3>The filter option is</h3> <br>
+	 <input type="radio"name="option"value="helpful">Helpful<br>
+	 <input type="radio"name="option"value="helpfulbut">Helpful, but could be better<br>
+	 <input type="radio"name="option"value="nothelpful">Not helpful<br>
+	 <input type="radio"name="option"value="toocomplicated">Too complicated<br><br>
+	 <h3>The way search items are arranged is</h3> <br>
+	 <input type="radio"name="arranged"value="appealing">To my appealing<br>
+	 <input type="radio"name="arranged"value="acceptable">Acceptable<br>
+	 <input type="radio"name="arranged"value="disturbing">Disturbing<br>
+	 <input type="radio"name="arranged"value="annoying">Annoying<br><br>
+   </div>
+   <div class="text">
+
+
+	 <h3>What is it, if any, that you like most about the website?</h3>
+	 <input type="text" class="textarea" name="likes"><br>
+	 <h3>What is it, if any, that you hate most about the website!</h3>
+	 <input type="text" class="textarea" name="dislikes" ><br><br>
+
+
+	 <input type="submit" class="submit" value="submit the Questionnaire"/>
+  </div>
+	</form>
+  </div>
+</body>
+</html>
